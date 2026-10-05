@@ -1,0 +1,10 @@
+{
+  "name": "Athlete Gym",
+  "short_name": "Athlete Gym",
+  "description": "Athlete Gym in Sector 23, Gurgaon — strength, boxing, Zumba, cardio and personal training.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#050505",
+  "theme_color": "#050505",
+  "lang": "en-IN"
+}
