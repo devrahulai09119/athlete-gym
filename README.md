@@ -36,4 +36,6 @@ Files in `assets/images/` are temporary demo photographs, not pictures of Athlet
 
 Use this folder as the project root so `/api/enquiry` resolves to `api/enquiry.js`. Set the email variables on the host. Put the live origin in `canonicalUrl` and the canonical link after the domain exists.
 
+Source: https://github.com/devrahulai09119/athlete-gym
+
 There is no production URL yet.

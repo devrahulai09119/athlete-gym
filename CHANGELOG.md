@@ -20,6 +20,10 @@
 - Added the enquiry form and `/api/enquiry`. Live email is not configured.
 - Added WhatsApp copy and links that stay inactive until a real number is set.
 
+### Repository
+
+- Published the site root to https://github.com/devrahulai09119/athlete-gym
+
 ### Verification
 
 - `node scripts/check-enquiry.js` passed, including the unconfigured-mail 503.

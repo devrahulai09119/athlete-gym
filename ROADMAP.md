@@ -6,13 +6,13 @@ Verification means the behaviour was exercised, not merely that the code exists.
 
 ## Current phase
 
-Phase 10 — production deployment is blocked. The site is built and checked locally. Email delivery, a public URL, and a dedicated GitHub repository are not done.
+Phase 10 — production deployment is blocked. The site is built, checked locally, and published to GitHub. Email delivery and a public hosting URL are not done.
 
 ## Phases
 
 | Phase | Scope | Status |
 | --- | --- | --- |
-| 1 Foundation | Static project, config, docs, local git | Partial — files exist; dedicated GitHub repo is blocked |
+| 1 Foundation | Static project, config, docs, GitHub | Done — https://github.com/devrahulai09119/athlete-gym |
 | 2 Design system | Tokens, type, glass, corners, buttons, ambient light | Verified in the browser on desktop and mobile |
 | 3 Hero and navigation | Nav, mobile menu, hero, scroll progress | Verified at 375 and 1440 |
 | 4 Main content | About through footer | Built and reviewed on desktop; overflow checked at every target width |
@@ -36,7 +36,6 @@ Phase 10 — production deployment is blocked. The site is built and checked loc
 
 - Replace `WHATSAPP_NUMBER_HERE` with the real digits-only number
 - Set `RESEND_API_KEY` and `EMAIL_FROM`, then send a real enquiry and confirm it arrives at `devrahul.ai09119@gmail.com`
-- Create and push the GitHub repository `athlete-gym` after `gh` is signed in
 - Deploy with the Athlete Gym folder as the project root and record the real URL
 - Set `canonicalUrl` once that domain exists
 - Replace temporary demo photographs with Athlete Gym photography
@@ -50,6 +49,5 @@ Phase 10 — production deployment is blocked. The site is built and checked loc
 
 ## Blockers
 
-- GitHub CLI token for `devrahulai09119` is invalid
 - No `RESEND_API_KEY`, `EMAIL_FROM`, or Vercel credentials in the environment
 - WhatsApp number has not been supplied
